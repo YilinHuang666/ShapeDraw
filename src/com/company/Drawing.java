@@ -23,9 +23,13 @@ public class Drawing extends Canvas {
     }
 
     public void paint(Graphics g){
-        Point p=new Point(150,150);
-        Color c=new Color(0x992266);
-        Circle cir = new Circle(p,c,100);
+        Point p_cir=new Point(200,200);
+        Point p_rec=new Point(100,100);
+        Color c_cir=new Color(0x992266);
+        Color c_rec=new Color(0x99226);
+        Circle cir = new Circle(p_cir,c_cir,100);
         cir.draw(g);
+        Rect rec = new Rect(p_rec,c_rec,100,50);
+        rec.draw(g);
     }
 }
