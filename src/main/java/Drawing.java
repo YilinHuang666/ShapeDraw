@@ -1,4 +1,5 @@
-package com.company;
+import shapes.Circle;
+import shapes.Rect;
 
 import java.awt.*;
 import java.awt.event.WindowAdapter;
