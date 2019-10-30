@@ -2,7 +2,7 @@ package shapes;
 
 import java.awt.*;
 
-public abstract class Shape {
+public abstract class Shape implements draw{
     protected Point pos;
     protected Color col;
     public Shape(Point initPos, Color col){
@@ -10,5 +10,6 @@ public abstract class Shape {
         this.col=col;
 
     }
-    public abstract void draw(Graphics g);
+
+    //public abstract void draw(Graphics g);
 }
